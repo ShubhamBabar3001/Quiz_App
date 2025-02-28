@@ -1,0 +1,91 @@
+.HelpDiv{
+    width: 80%;
+    height: 91vh;
+    padding: 20px;
+
+    /* box-shadow: rgba(210, 216, 223, 0.61) 0px 8px 24px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: transparent;
+    color: #fff;
+}
+.HelpDiv h2,
+p,
+div {
+    background: transparent;
+}
+.HelpDiv-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #a993fe;
+}
+.HelpDiv h2 {
+    color: #a993fe;
+}
+.HelpDiv-1-left{
+    display: flex;
+    gap: 2rem;
+}
+.Profile-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 2px solid #a993fe;
+    
+}
+.HelpDiv-2{
+    /* border: 2px solid yellow; */
+    height:76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 5rem;
+}
+.HelpDiv form{
+    background: transparent;
+    border: 2px solid #a993fe;
+    padding: 20px 20px;
+    width: 40%;
+    border-radius: 20px;
+}
+.HelpDiv form span{
+    background: transparent;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #a993fe;
+    text-align: center;
+}
+.HelpDiv form textarea{
+    width: 100%;
+    margin: 20px 0;
+    height: 10rem;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18PX;
+    resize: none;
+}
+.submitQuery{
+    margin: 20px auto;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+    padding: 0.6rem 4rem;
+   
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

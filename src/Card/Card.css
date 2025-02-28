@@ -1,0 +1,24 @@
+.Card{
+    width: 12rem;
+    height: 12rem;
+    padding: 20px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #8640ff;
+    
+}
+.CardIcon{
+    width: 100%;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+}
+.Card h2,p{
+    background: transparent;
+    text-align: center;
+}
+.CardIcon{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin: 0 40;
+}

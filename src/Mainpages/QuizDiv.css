@@ -1,0 +1,67 @@
+.QuizeDiv {
+    width: 80%;
+    height: 91vh;
+    padding: 20px;
+
+    /* box-shadow: rgba(210, 216, 223, 0.61) 0px 8px 24px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: transparent;
+}
+
+.QuizeDiv h2,
+p,
+div {
+    background: transparent;
+}
+
+.QuizeDiv h2 {
+    color: #a993fe;
+}
+
+.QuizDiv-1 {
+    border-bottom: 2px solid #a993fe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.Dashboard-1-left{
+    display: flex;
+    gap: 2rem;
+}
+.Profile-logo {
+    width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid #a993fe;
+}
+.QuizDiv-2 {
+    height:76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 5rem;
+    overflow-y: scroll;
+}
+.QuizDiv-2 p{
+    color: #fff;
+}
+.QuizDiv-2::-webkit-scrollbar{
+    width: 10px;
+}
+.QuizDiv-2::-webkit-scrollbar-track {
+    background: #a993fe; /* Track color */
+    border-radius: 10px;
+}
+.QuizDiv-2::-webkit-scrollbar-thumb {
+    background: #7e61e7; /* Scrollbar handle color */
+    border-radius: 5px; /* Rounded corners */
+}

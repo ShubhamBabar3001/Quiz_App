@@ -1,0 +1,111 @@
+.Page1{
+    width: 100%;
+    /* border: 2px solid red; */
+    background: black;
+}
+.Page1_Top{
+    max-width: 1300px;
+    padding: 20px 20px;
+    /* border: 2px solid yellow; */
+    margin: 0.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: none;
+}
+.Page1_Top_Left{
+    width: 50%;
+    background: none;
+}
+.Page1_Top_Left img{
+    width: 83%;
+    height: 70%;
+   background-color: black;
+   /* border: 2px solid red; */
+   
+}
+.Page1_Top_Right{
+    width: 50%;
+    background-color: black;
+}
+.Page1_Top_Right h1 {
+    font-size: 4em;
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+}
+.Page1_Top_Right  p {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 20px;
+    background-color: #000;
+}
+/* ----------------------------------------------second --------------------- */
+.Page1_2{
+    max-width: 1300px;
+    margin: 20px auto;
+    background-color: #000;
+    padding: 20px 20px;
+    /* border: 1px solid red; */
+}
+.Page1_2 p{
+    /* border: 1px solid red; */
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+.FrontPageCardDiv{
+    display: flex;
+    /* border: 1px solid yellow; */
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+    background: black;
+}
+.Page1_2_Card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 20px 20px;
+}
+.Page1_2 button{
+    margin: 30px auto;
+}
+.Page1_2 h1{
+    text-align: center;
+    background-color: #000;
+    color:#fff;
+}
+.feedback{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #000;
+}
+.feedback input{
+    padding: 10px 10px;
+    width: 20rem;
+    border-radius: 30px;
+    border: 3px solid #7e61e7;
+}
+.feedback input:focus{
+    outline: 3px solid #7e61e7;
+}
+.Page1_2 textarea{
+    width: 40%;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+    height: 5rem;
+}
+.Page1_2 textarea:focus{
+    outline: 3px solid #7e61e7;
+}

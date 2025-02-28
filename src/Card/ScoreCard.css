@@ -1,0 +1,16 @@
+.Scorecard{
+    margin: 10px 2px;
+    border-radius: 5px;
+    padding: 10px 0;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: rgba(193, 166, 166, 0.87);
+    
+}
+.Scorecard p{
+    background: transparent;
+    width: 100%;
+}

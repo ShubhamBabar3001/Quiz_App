@@ -1,0 +1,120 @@
+.Form-div1{
+    width: 100%;
+    background-color: #000;
+}
+.Form-div2{
+    height: 35rem;
+    max-width: 1300px;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+    padding: 10px 20px;
+    background-color: #000;
+    display: flex;
+}
+.FormLeft{
+    flex: 1;
+    /* border: 1px solid yellow; */
+    position: relative;
+    background-color: #000;
+}
+.FormRight{
+    flex:1;
+    background-color: #000;
+}
+    /* border: 1px solid yellow; */
+.FormLeft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    object-position: top;
+    clip-path: ellipse(70% 100% at 30% 50%);
+}
+form{
+    padding: 20px 7rem;
+    background: transparent;
+}
+form p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #7e61e7;
+}
+.Form-title{
+    color: linear-gradient(90deg, #afedf8 0%, #4782c5 100%);;
+   
+    text-align: center;
+    font-size: 2rem;
+}
+.inputFullField{
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 2rem;
+    border: none;
+    outline: 2px solid #7e61e7;
+    color: #fff;
+}
+.Form-div3{
+    margin: 20px 0;
+}
+.Form-div3 p{
+    text-align: start;
+}
+.Form-div4{
+    width: 100%;
+    margin: 40px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+.Form-div4 input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: 2px solid #7e61e7;
+    color: #fff;
+}
+.OTPDiv{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+}
+.Resend{
+    margin: -20px 0;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: start;
+}
+.OTPDiv input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: 2px solid #7e61e7;
+    color: #fff;
+}
+.otp-btn{
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+    border: none;
+    outline: 1.5px solid transparent;
+    transition: all 0.3s ease;
+}
+.Form-btn{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+}
+form p,div{
+    background: transparent;
+}

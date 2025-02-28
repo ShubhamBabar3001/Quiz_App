@@ -1,0 +1,72 @@
+.QuestionCard{
+    /* border: 2px solid #cec2e3; */
+    box-shadow: rgba(137, 133, 133, 0.71) 0px 2px 8px 0px;
+    max-width: 1300px;
+    margin: 4rem auto;
+    border-radius: 15px;
+    padding: 20px 20px;
+    background: transparent;
+    color: #fff;
+    background-color: rgba(46, 45, 45, 0.87);
+}
+.QuestionCard div{
+    background:transparent;
+}
+.QuestionCard .QuestionDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.QuestionCard .Question,span,input{
+    font-size: 20px;
+    background: transparent;
+}
+
+.OptionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.OptionRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.OptionLabel {
+    width:30%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+}
+.OptionLabel input[type="radio"] {
+    width: 20px;  /* Adjust width */
+    height: 20px; /* Adjust height */
+    accent-color: #8640ff; /* Change color */
+    cursor: pointer;
+}
+.OptionLabel input {
+    cursor: pointer;
+}
+
+/* .OptionLabel:hover {
+    background-color: #007bff;
+    color: white;
+} */
+
+
+.QuestionButtonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
